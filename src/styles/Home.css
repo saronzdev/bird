@@ -1,0 +1,11 @@
+.home-main-div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}

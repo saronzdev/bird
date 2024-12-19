@@ -1,0 +1,87 @@
+.tw {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: start;
+  justify-content: left;
+  width: 500px;
+  margin: 5px;
+  min-height: 70px;
+  max-height: 20vh;
+  border-radius: 8px;
+  border: 1px solid rgb(120, 90, 90);
+}
+@media (max-width: 768px) {
+  .tw {
+    width: 60vw;
+  }
+  @media (max-width: 768px) {
+    .tw {
+      width: 95vw;
+    }
+  }
+}
+.rg {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  justify-content: left;
+  width: 100%;
+  margin: 3px 10px 5px 10px;
+}
+.top {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.dw {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  justify-content: left;
+  width: 100%;
+}
+.btns-ctn {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.user {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 3px;
+  color: rgb(194, 194, 194);
+}
+.txt {
+  font-weight: 520;
+  font-size: 16.5px;
+  word-break: break-all;
+}
+.btns {
+  height: 30px;
+  width: 30px;
+}
+.btns:first-child {
+  margin-left: 30px;
+}
+.btns:last-child {
+  margin-right: 30px;
+}
+.btns:hover {
+  cursor: pointer;
+}
+#save {
+  height: 25px;
+}
+#delete {
+  height: 20px;
+  width: 20px;
+}

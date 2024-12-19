@@ -1,0 +1,23 @@
+.wc-main-cn {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 99vw;
+    height: 97vh;
+} 
+.wc-opt-cn {
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+button {
+    font-size: 16px;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(50, 45, 45);
+    margin: 10px;
+    padding: 10px;
+} 

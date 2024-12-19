@@ -1,0 +1,24 @@
+.uc-cont-div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 150px;
+    width: 100px;
+    background-color: rgb(120, 90, 90);
+}
+
+span {
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+}
