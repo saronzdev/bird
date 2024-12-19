@@ -9,7 +9,7 @@ import Register from './pages/Register.jsx'
 function App() {
 	return (
 		<BrowserRouter>
-			<Routes basename='https://bird-flax.vercel.app' >
+			<Routes>
         <Route path='/' element={<Welcome/>} />
         <Route path='/home' element={<Home/>} />
         <Route path='/signin' element={<Login/>} />
