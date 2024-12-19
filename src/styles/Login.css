@@ -1,21 +1,75 @@
-div {
+.lg-ctn {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
+  height: 100vh;
+  width: 100vw;
 }
-form {
+.lg-form{
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  padding: 30px;
   border-radius: 8px;
+  border: 1px solid rgb(120, 90, 90);
 }
-input {
+.web-name {
+  font: 700 30px sans-serif;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.head {
+  color: rgb(120, 90, 90);
+  font-weight: 600;
+  padding: 10px 0;
+  margin: 0;
+}
+.lg-inputs {
   margin: 5px;
+  padding: 5px;
+  padding-left: 10px;
   border-radius: 4px;
   height: 30px;
-  padding: 5;
-  border: 1px solid red;
+  width: 13vw;
+  background-color: transparent;
+  font: 15px sans-serif;
+  color: white;
+  border: 1px solid rgb(120, 90, 90);
+}
+.lg-inputs:focus {
+  outline: 1px solid rgb(120, 90, 90);
+}
+.error-ctn {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+  align-items: center;
+  width: 13vw;
+}
+.error-txt {
+  color: #fa5252;
+  font-size: 10px;
+  font-style: oblique;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.lg-btn {
+  border: 1px solid rgb(120, 90, 90);
+  color: rgb(120, 90, 90);
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 15px;
+}
+.lg-btn:hover {
+  cursor: pointer;
+}
+.no-account {
+  font-size: 16px;
+  font-weight: 700;
+  font: 16px sans-serif;
+  margin-top: 10px;
+  color: rgb(120, 90, 90);
 }

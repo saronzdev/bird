@@ -1,22 +1,29 @@
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-import Home from './pages/Home'
-import Login from './pages/Login'
-import User from './pages/User'
-import Welcome from './pages/Welcome'
+import Home from './pages/Home.jsx'
+import Login from './pages/Login.jsx'
+import User from './pages/User.jsx'
+import Welcome from './pages/Welcome.jsx'
+import NotFound from './pages/NotFound.jsx'
+import Register from './pages/Register.jsx'
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <Welcome/>
+		element: <Welcome/>,
+    errorElement: <NotFound/>
 	},
   {
-    path: '/login',
+    path: '/home',
+    element: <Home/>,
+  },
+  {
+    path: '/signup',
+    element: <Register/>
+  },
+  {
+    path: '/signin',
     element: <Login/>
   },
-	{
-		path: '/home',
-		element: <Home/>,
-	},
 	{
 		path: '/user/:username',
 		element: <User/>,

@@ -1,8 +1,10 @@
 import axios from 'axios'
 
+const API_URL = import.meta.env.VITE_API_URL
+
 export async function createPosts(username, post) {    
   try{
-    const {data} = await axios.post('http://localhost:3000/api/v1/posts/' + username, {post})
+    const {data} = await axios.post(API_URL + 'api/v1/posts/' + username, {post})
     return data
   }	catch(e) {
 			return {

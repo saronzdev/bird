@@ -3,7 +3,7 @@ import {getUsers} from '../api/getUsers.js'
 import UserCard from '../components/UserCard.jsx'
 import '../styles/Home.css'
 
-const Home = () => {
+export default function Home() {
 	const [error, setError] = useState()
 	const [loading, setLoading] = useState(true)
 	const [users, setUsers] = useState([])
@@ -42,5 +42,3 @@ const Home = () => {
     	
 	)
 }
-
-export default Home

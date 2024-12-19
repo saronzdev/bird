@@ -4,9 +4,9 @@ import {useParams} from 'react-router-dom'
 import Tweet from '../components/Tweet'
 import CreatePost from '../components/CreatePost.jsx'
 import '../styles/User.css'
-import { getUser } from '../api/getUser.js'
+import {getUser} from '../api/getUser.js'
 
-const User = () => {
+export default function User() {
   const {username} = useParams()
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(true)
@@ -48,5 +48,3 @@ const User = () => {
     </div>
   )
 }
-
-export default User
