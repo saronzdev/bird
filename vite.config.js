@@ -8,17 +8,6 @@ config()
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
-  build: {
-      outDir: 'dist',
-      assetsDir: 'assets',
-      rollupOptions: {
-        output: {
-          chunkFileNames: 'assets/js/[name]-[hash].js',
-          entryFileNames: 'assets/js/[name]-[hash].js',
-          assetFileNames: 'assets/[ext]/[name]-[hash].[ext]'
-        }
-      }
-    },
   define: {
     'process.env': process.env
   }
