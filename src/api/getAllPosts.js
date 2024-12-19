@@ -1,7 +1,7 @@
 import axios from 'axios'
 import shuffle from 'shuffle-array'
 
-const API_URL = import.meta.env.VITE_API_URL
+const API_URL = import.meta.env.VITE_API_URL && 'https://bird-api-alpha.vercel.app/'
 
 export const getAllPosts = async (setData, setLoading) => {
 	try {
