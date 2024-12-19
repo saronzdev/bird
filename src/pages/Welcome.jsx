@@ -12,7 +12,7 @@ function Welcome() {
     <div className='wc-ctn'>
       <div className='sec-ctn'>
         <h2 className='wc-msg'>Bienvenido</h2>
-        <button className='sec-btn' onClick={()=> goTo('/singin')}>Iniciar Sesión</button>
+        <button className='sec-btn' onClick={()=> goTo('/signin')}>Iniciar Sesión</button>
         <button className='sec-btn' onClick={() => alert('Not avaible')}>Crear Cuenta</button>
         <Link className='invited' to='/home'>Sesión de Invitado</Link>
       </div>
